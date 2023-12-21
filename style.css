@@ -140,13 +140,22 @@
         max-width: 410px;
     }
 }
+@media screen and (max-width:440px) {
+    .header{
+        height: 750px;
+    }
+    .section_flex-grid img {
+        width: 125px;
+        height: 155px;
+    }
+}
 @media screen and (max-width:360px){
     .container{
         max-width: 320px;
     }
-    .header{
+    /* .header{
         height: 700px;
-    }
+    } */
     .section_flex-grid img {
         width: 125px;
         height: 155px;
@@ -154,7 +163,7 @@
 }
 @media screen and (max-width:320px){
     .header{
-        height: 800px;
+        height: 850px;
     }
 }
 
