@@ -1,0 +1,163 @@
+/* Моя прекрасна матуся, вітаю тебе з днем народження! Від щирого серця хочу побажати тобі прекрасного настрою, чудових вражень, міцного здоров'я. Нехай всі твої надії виправдаються, мрії здійсняться, як за помахом чарівної палички. Нехай кожен день приносить радість, тепло і натхнення!  */
+.container{
+    max-width:1300px;
+    margin:0 auto;
+}
+.header{
+    background-image: url(./img/imgonline-com-ua-Blur-0UFWump86GAdR.jpg);
+    /* filter: grayscale(50%) blur(10px); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.tittle{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 30px;
+}
+.text_1{
+    font-size: 28px;
+    text-align: center;
+    width: 400px;
+    /* margin: 0 auto; */
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    -webkit-text-stroke: 0.01px #fff;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_1:hover{
+    cursor: pointer;
+    animation-name: text;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+.image_1, .image_2, .image_3, .image_4{
+    width: 40px;
+}
+.flex_1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section_flex-grid img{
+    width: 400px;
+    height: 520px;
+}
+.wrapper_flex-grid-2, .wrapper_flex-grid{
+    margin-top: 50px;
+}
+.wrapper_flex-grid{
+    padding-top: 50px;
+}
+.wrapper_flex-grid-2{
+    padding-bottom: 50px;
+}
+.section_flex-grid{
+    background-image: url(https://i.pinimg.com/564x/74/76/7f/74767f98d129f5105504e1b1ced246e5.jpg);
+}
+.flex_2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.img_wrapflex{
+    width: 40px;
+}
+/* .grid{
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+}
+.grid_1, .grid_2, .grid_3, .grid_4{
+    width: 300px ;
+    height: 450px;
+}
+.grid_1{
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.grid_2{
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.grid_3{
+    grid-column: span 1;
+    grid-row: span 2;
+}
+.grid_4{
+    grid-column: span 2;
+    grid-row: span 2;
+} */
+@keyframes text{
+    20%{
+        color: violet;
+    }
+    30%{
+        color: #fff;
+    }
+    50%{
+        color: violet;
+    }
+}
+@media screen and (max-width:1200px){
+    .container{
+        max-width: 1130px;
+    }
+}
+@media screen and (max-width:1090px){
+    .container{
+        max-width:1020px ;
+    }
+}
+@media screen and (max-width:800px){
+    .container{
+        max-width: 730px;
+    }
+    .section_flex-grid img {
+        width: 300px;
+        height: 420px;
+    }
+}
+@media screen and (max-width:550px){
+    .container{
+        max-width: 480px;
+    }
+    .section_flex-grid img {
+        width: 200px;
+        height: 270px;
+    }
+}
+@media screen and (max-width:480px){
+    .container{
+        max-width: 410px;
+    }
+}
+@media screen and (max-width:360px){
+    .container{
+        max-width: 320px;
+    }
+    .header{
+        height: 700px;
+    }
+    .section_flex-grid img {
+        width: 125px;
+        height: 155px;
+    }
+}
+@media screen and (max-width:320px){
+    .header{
+        height: 800px;
+    }
+}
+
+
+
+
